@@ -1,0 +1,334 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    background: #a73737;  
+    background: -webkit-linear-gradient(to right, #7a2828, #a73737);  
+    background: linear-gradient(to right, #7a2828, #a73737);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 70px;
+    border-radius: 360%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color:#c6c6c6;
+}
+
+/* Main content styles */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #c6c6c6;
+    margin-top: 0;
+}
+
+.left-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card styles */
+.card {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.about-casino,
+.encouragement {
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    margin: 10px;
+}
+
+.about-casino h2,
+.encouragement h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-casino p,
+.encouragement p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Tear icon and link */
+.other-section {
+    text-align: center;
+    padding-bottom: 50px;
+    background: #a73737;  
+    background: -webkit-linear-gradient(to right, #7a2828, #a73737);  
+    background: linear-gradient(to right, #7a2828, #a73737);
+}
+
+.tear {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+.tear img {
+    width: 50px;
+    height: auto;
+    margin-top: 60px; /* Adjust the margin as needed */
+}
+
+.tear span {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* Games section styles */
+.games-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.games-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 2%;
+}
+
+.game-option {
+    margin: 40px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.game-option img {
+    width: 180px;
+    height: 180px;
+}
+
+.game-option span {
+    display: block;
+    margin-top: 5px;
+    color: #333;
+}
+
+/* Game option hover styles */
+.game-option:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.game-option img {
+    transition: transform 0.3s ease;
+}
+
+.game-option:hover img {
+    transform: scale(1.1);
+}
+
+.game-option span {
+    display: block;
+    margin-top: 5px;
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+.play-now {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.play-now h2 {
+    color: white;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.play-now p {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.mp3-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    border: 2px solid #007bff;
+}
+
+.mp3-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Registration section styles */
+.registration-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: black;
+}
+
+.registration-section h2 {
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.registration-section p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+/* Support section styles */
+.support-section {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2%;
+}
+
+.support-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.support-option {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.support-section h2 {
+    color: #4c8bf5; /* Blue color for the heading */
+    font-size: 28px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 220px;
+}
+
+.support-section p {
+    color: #777; /* Darker gray color for the paragraph */
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    margin-left: 220px;
+}
+
+.support-option img {
+    width: 80px;
+    height: 80px;
+}
+
+.support-option span {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333; /* Default black color for the support options */
+}
+
+.support-option:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+
